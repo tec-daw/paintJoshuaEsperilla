@@ -36,3 +36,114 @@
     transform: rotate(360deg);
   }
 }
+
+html{
+  background-color: #605B8E;
+}
+
+button{
+  margin: 8px;
+}
+
+input{
+  margin: 8px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.tools{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #4B4774;
+}
+
+#palette{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#palettetext{
+  color: white;
+  margin-right: 0px;
+  font-size: 20px;
+}
+
+.palettebtns{
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#newgamebtn{
+  background-color: #00EA4D;
+  border-radius:10px;
+  height: 60px;
+  width: 130px;
+  cursor:pointer;
+  border: 0px;
+  font-size: 20px;
+}
+
+#printbtn{
+  background-color: #FFA200;
+  border-radius:10px;
+  height: 60px;
+  width: 80px;
+  cursor:pointer;
+  border:0px;
+  font-size: 20px;
+}
+
+#spaces{
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap:wrap;
+}
+
+#drawingPanel{
+  border: 3px solid gray;
+  width: fit-content;
+
+}
+
+#drawing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#resultImg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+}
+
+#defaultImg{
+  height: 200px;
+  width: 200px;
+}
+
+#defaultMessage{
+  font-size: 25px;
+}
+
+.colorpicker {
+  
+  border: 4px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  height: 50px;
+  width: 50px;
+}
+
