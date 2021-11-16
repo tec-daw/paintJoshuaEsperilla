@@ -11,7 +11,7 @@ function App() {
   let canva = [];
 
   for (let i = 1; i<=100; i++){
-    canva.push({ id: i, pxcolor: '#FFFF', height: '40px', width: '40px' });
+    canva.push({ id: i, spacecolor: '#E0E0E0', height: '40px', width: '40px' });
   }
 
   

@@ -10,7 +10,7 @@ function Canvas(props) {
 	function handleSpaces(e) {
         //Cambia el estado para identificar que hay un dibujo
     	props.setIsPainted(true);
-        //Cambia el color del pixel al color seleccionado
+        //Recorre el grid y modifica el color de cada espacio al color seleccionado
     	props.setGrid(
     		props.grid.map(
             	(space) => {
@@ -54,7 +54,7 @@ function Canvas(props) {
 	                            	name={space.id}
 	                                key={space.id}
 	                                onMouseOver={keepPaint}
-	                                
+
 	                                disabled={props.isdisabled}
 	                                style={{
 	                                    width: space.width,
